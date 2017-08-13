@@ -633,4 +633,13 @@
         <item name="android:textSize">@dimen/directory_header_text_size</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="InvisibleNoDisplay" parent="BugleBaseTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
 </resources>
